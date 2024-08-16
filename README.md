@@ -26,6 +26,10 @@ jumbler -i LICENSE.txt -o JUMBLEDLICENSE.txt
 
 The `jumbler` program makes use of the following finite state machine to jumble text:
 
+<div style="display: flex; justify-content: center;">
+    <img src="./doc/fsm.png"/>
+</div>
+
 ## Interesting to Know
 
 There is [some controversy][sciencealert] surrounding the science behind this phenomena. It is also referred to as the
