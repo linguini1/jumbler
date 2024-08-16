@@ -1,0 +1,20 @@
+jumbler
+Matteo Golin, 2024
+
+DESCRIPTION:
+    jumbler is a command line utility for experiencing the fun of
+    "typoglycemia". Read up about this phenomena in the README.
+    
+    This program's source is freely available on GitHub under the MIT license.
+
+USAGE:
+    jumbler [options]
+
+OPTIONS:
+    -h                 Display this help message and quit.
+    -i <input file>    Specify the input file to get the text to be jumbled
+                       from. If no input file is provided, jumbler will read
+                       from stdin.
+    -o <output file>   Specify the output file to write jumbled output to. If no
+                       output file is provided, jumbler will print its output to
+                       stdout.
